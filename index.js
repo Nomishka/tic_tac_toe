@@ -92,6 +92,8 @@ app.get("/", (req, res) => {
   return res.sendFile("index.html");
 });
 
-server.listen(3030, () => {
-  console.log("port connected to 3030");
+const PORT = "https://tic-tac-5hgebjtag-nomishka-dilshans-projects.vercel.app/" || 3030;
+
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
