@@ -3,7 +3,6 @@ import path from "path";
 import http from "http";
 import { Server, Socket } from "socket.io";
 import cors from "cors";
-import { Server } from "socket.io";
 
 const app = express();
 
