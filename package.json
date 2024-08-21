@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon index",
-    "build": "npm run dev",
+    "build": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
