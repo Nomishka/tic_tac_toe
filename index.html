@@ -156,10 +156,6 @@
         }
       });
 
-      const corsOptions = {
-        origin: ''
-      }
-
       socket.on("find", (e) => {
         let allPlayersArray = e.allPlayers;
         console.log(allPlayersArray);
@@ -281,7 +277,7 @@
         }
         setTimeout(() => {
           location.reload();
-        }, 2000);
+        }, 3000);
       });
     </script>
   </body>
